@@ -112,17 +112,14 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useHead } from '#imports'
 
-// กำหนดให้แท็ก html มีคุณสมบัติ scroll-smooth เพื่อให้การเลื่อนหน้าจอผ่าน Anchor Links นุ่มนวลขึ้น
 useHead({
   htmlAttrs: {
     class: 'scroll-smooth'
   }
 })
 
-// State สำหรับควบคุมการเปิด/ปิดเมนูบน Mobile
 const isMenuOpen = ref(false)
 
-// จัดการการเปลี่ยนสี Header เมื่อมีการ Scroll
 const isScrolled = ref(false)
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 20
