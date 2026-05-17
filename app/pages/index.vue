@@ -16,15 +16,12 @@
           </div>
           
           <p class="text-slate-400 text-base md:text-lg leading-relaxed max-w-2xl">
-            Experienced Full Stack Developer specializing in enterprise-level software. I have a proven track record in developing and maintaining legacy systems using <span class="text-white font-medium">C#, ASP.NET WebForms</span>, and <span class="text-white font-medium">SQL Server</span>, alongside experience in building data-driven reports and interactive dashboards. Possesses strong analytical, problem-solving skills, and the capability to handle complex, real-world backend architectures.
+            Experienced Full Stack Developer specializing in enterprise-level software. I have a proven track record in developing and maintaining legacy systems using <span class="text-white font-medium">C#, ASP.NET WebForms</span>, and <span class="text-white font-medium">SQL Server</span>, alongside experience in building data-driven reports and interactive dashboards. Possesses strong analytical, problem-solving skills, and the capability to handle complex backend architectures.
           </p>
 
           <div class="flex flex-wrap gap-3 justify-center md:justify-start pt-2">
             <a href="#portfolio" class="bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold py-2.5 px-6 rounded-xl transition-all shadow-lg shadow-emerald-500/10">
               View My Work
-            </a>
-            <a href="#contact" class="bg-slate-800 hover:bg-slate-700 text-white font-medium py-2.5 px-6 rounded-xl border border-slate-700 transition-all">
-              Get In Touch
             </a>
           </div>
         </div>
