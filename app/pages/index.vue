@@ -211,6 +211,21 @@
 </template>
 
 <script setup>
+
+useHead({
+  htmlAttrs: {
+    class: 'scroll-smooth',
+    style: 'scroll-padding-top: 4rem;'
+  },
+  link: [
+    { 
+      rel: 'icon', 
+      type: 'image/png',
+      href: 'images/code-circle-stroke-rounded.png'
+    }
+  ]
+})
+
 const currentSkills = [
   { name: 'C#', icon: 'simple-icons:csharp', color: 'text-indigo-400' },
   { name: 'ASP.NET', icon: 'simple-icons:dotnet', color: 'text-blue-400' },
